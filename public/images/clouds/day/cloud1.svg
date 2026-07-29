@@ -1,0 +1,35 @@
+<svg width="609" height="419" viewBox="0 0 609 419" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_n_141_35734)">
+<path d="M241.272 0C334.316 0 409.743 75.4181 409.743 168.451C409.743 172.775 409.581 177.06 409.26 181.302C420.948 178.648 433.112 177.246 445.603 177.246C535.845 177.246 609 250.392 609 340.623C609 430.854 535.845 504 445.603 504C189.85 504 -45.5395 504 -239.109 504C-310.294 504 -368 446.301 -368 375.125C-368 303.949 -310.294 246.25 -239.109 246.25C-214.828 246.25 -192.117 252.965 -172.728 264.636C-156.25 213.913 -108.592 177.246 -52.3694 177.246C-52.0699 177.246 -51.7706 177.247 -51.4715 177.249C-52.0634 173.048 -52.3694 168.756 -52.3694 164.392C-52.3694 113.952 -11.4751 73.0631 38.9706 73.0631C58.7872 73.0631 77.1289 79.3742 92.0977 90.0941C120.301 36.5253 176.52 0 241.272 0Z" fill="url(#paint0_linear_141_35734)"/>
+<path d="M445.603 504C189.85 504 -45.5395 504 -239.109 504H445.603Z" fill="url(#paint1_linear_141_35734)"/>
+</g>
+<defs>
+<filter id="filter0_n_141_35734" x="-368" y="0" width="977" height="504" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="2 2" stitchTiles="stitch" numOctaves="3" result="noise" seed="4269" />
+<feComponentTransfer in="noise" result="coloredNoise1">
+<feFuncR type="linear" slope="2" intercept="-0.5" />
+<feFuncG type="linear" slope="2" intercept="-0.5" />
+<feFuncB type="linear" slope="2" intercept="-0.5" />
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feComponentTransfer in="noise1Clipped" result="color1">
+<feFuncA type="table" tableValues="0 0.15" />
+</feComponentTransfer>
+<feMerge result="effect1_noise_141_35734">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<linearGradient id="paint0_linear_141_35734" x1="121.335" y1="100.421" x2="121.335" y2="504" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#E1FEFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_141_35734" x1="121.335" y1="100.421" x2="121.335" y2="504" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#E1FEFF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

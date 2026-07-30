@@ -1,4 +1,4 @@
-import { BackClouds, FrontClouds } from './Clouds'
+import { BackClouds, FrontClouds, StreakClouds } from './Clouds'
 import { HeroBackground } from './HeroBackground'
 import { JellyfishAnimation } from './JellyfishAnimation'
 
@@ -10,6 +10,7 @@ export function Hero({ theme = 'day' }: HeroProps) {
   return (
     <section className="relative h-screen w-screen overflow-hidden" aria-label="Animated sky">
       <HeroBackground theme={theme} />
+      <StreakClouds />
       <BackClouds />
 
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-20 overflow-hidden">

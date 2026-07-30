@@ -8,5 +8,10 @@ const backgrounds = {
 }
 
 export function HeroBackground({ theme }: HeroBackgroundProps) {
-  return <div aria-hidden="true" className={`absolute inset-0 z-0 ${backgrounds[theme]}`} />
+  return (
+    <>
+      <div aria-hidden="true" className={`absolute inset-0 z-0 ${backgrounds[theme]}`} />
+      <div aria-hidden="true" className="duotone-noise pointer-events-none absolute inset-0 z-[1]" />
+    </>
+  )
 }
